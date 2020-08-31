@@ -1,0 +1,126 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #a38265!important;
+}
+
+.container-fluid {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 90%;
+    height: 90%;
+}
+
+.signin {
+    background-color: #ab6c44 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.signin .adjust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signin .adjust h1,
+p {
+    color: #ffffff;
+}
+
+.adjust p {
+    font-size: 18px;
+}
+
+.signin .adjust #login {
+    width: 60%;
+    border-radius: 20px;
+    background-color: #ab6c44;
+    border: 2px solid #ffffff;
+    height: 50% !important;
+    color: #ffffff;
+}
+
+.register {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.allregister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.register img {
+    width: 10%;
+    height: 10%;
+}
+
+.register .signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.register .signup .camp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.register .signup .camp img{
+    width: 20px;
+    height: 50px;
+}
+
+.register .signup .form-control {
+    border: 0;
+    background-color: #e0e0e0;
+    width: 250px;
+    text-align: left;
+    padding: 3% 12%;
+}
+
+.register .signup .camp #submit{
+    border: 5px !important;
+    width: 45% !important;
+    height: 35px !important;
+    border-radius: 15px;
+    background-color: #ab6c44;
+    color: #ffffff;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type=date] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+

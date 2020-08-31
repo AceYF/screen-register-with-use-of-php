@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/major.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="script/jquery/jquery.js"></script>
+    <script src="script/majorscript.js"></script>
+    <script src="script/jquery/jQuery-Mask-Plugin-master/dist/jquery.mask.js"></script>
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row col-md-11">
+            <div class="signin col-md-5">
+                <div class="adjust">
+                    <h1>Bem Vindo !</h1>
+                    <p>Mantenha-se conectado conosco</p>
+                    <input class="mt-2 mb-4" id="login" type="button" value="SIGN IN">
+                </div>
+            </div>
+            <div class="register col-md-7">
+                <div class="allregister mb-3 mt-3">
+                    <h2 class="mr-4">Criar Nova Conta</h2>
+                    <img src="img/register/person.svg" class="mb-2 mr-5">
+                    <form class="formcadastro mt-4">
+                        <div class="signup">
+                            <div class="camp">
+                                <div class="col-md-1">
+                                    <img src="img/register/person.svg" alt="" class="ml-4">
+                                </div>
+                                <input id="name" type="text" placeholder="Nome" class="form-control mb-3 mr-5" maxlength="200">
+                            </div>
+                            <div class="camp">
+                                <div class="col-md-1">
+                                    <img src="img/register/input/name.svg" alt="" class="ml-4">
+                                </div>
+                                <input id="cpf" type="number" placeholder="CPF"  class="form-control mb-3 mr-5">
+                            </div>
+                            <div class="camp">
+                                <div class="col-md-1">
+                                    <img src="img/register/input/calendar.svg" alt="" class="ml-4">
+                                </div>
+                                <input id="datebirth" type="date" placeholder="Data de nascimento" class="form-control mb-3 mr-5">
+                            </div>
+                            <div class="camp">
+                                <div class="col-md-1">
+                                    <img src="img/register/input/phone.svg" alt="" class="ml-4">
+                                </div>
+                                <input id="tel" type="tel" placeholder="Telefone" class="form-control mb-3 mr-5" maxlength="11">
+                            </div>
+                            <div class="camp">
+                                <div class="col-md-1">
+                                    <img src="img/register/input/email.svg" alt="" class="ml-4">
+                                </div>
+                                <input id="email" type="email" placeholder="E-mail" class="form-control mb-3 mr-5">
+                            </div>
+                            <div class="camp">
+                                <div class="col-md-1">
+                                    <img src="img/register/input/password.svg" alt="" class="ml-4">
+                                </div>
+                                <input id="password" type="password" placeholder="Password" class="form-control mb-3 mr-5" maxlength="8">
+                            </div>
+                            <div class="camp">
+                                <input id="submit" type="submit" value="SIGN UP">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- Aplicando os conhecimentos obitidos em aula, elaborar um formulário para cadastro com:
+
+Nome, CPF, data de nascimento, telefone, e-mail e senha.
+
+-Aplicar mascara de CPF, Data e Telefone.
+-O telefone pode ser fixo ou celular.
+-O e-mail tem que ser válido.
+-Senha com mínimo de 8 caracteres.
+
+A pasta do projeto deverá ser hospedada no webService php.
+
+Se todos os dados estiverem preenchidos e válidos, deverá carregar uma pagina php exibindo a frase "Dados armazenados com sucesso!" -->
